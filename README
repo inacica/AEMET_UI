@@ -1,0 +1,6 @@
+The project is organized in 'tests' folder and 'pages'. 
+In Pages you can find the new page or tab that is being opened. So far, there is only one. 
+
+In order to run the tests, under tests forlder, open the only existing test so far, called singUpUser.spec.js.
+In the terminal run the command: npm run test --ui  -> this will open a new window where you can select your test and visually see what your test is doing. 
+Another way to run the test is by opening the terminal and run the command: npx playwright test.
